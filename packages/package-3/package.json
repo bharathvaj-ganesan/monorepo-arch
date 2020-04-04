@@ -10,6 +10,7 @@
   "license": "ISC",
   "gitHead": "dafd0e4b7ee0ab8959c429610cfad1b852964a58",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "tag": "flippin-sweet"
   }
 }
