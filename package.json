@@ -1,0 +1,22 @@
+{
+  "name": "@ifaafa/mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathvaj1995/monorepo-arch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathvaj1995/monorepo-arch/issues"
+  },
+  "homepage": "https://github.com/bharathvaj1995/monorepo-arch#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
