@@ -1,3 +1,5 @@
 module.exports = {
-  alert: () => console.log("package 1")
+  alert: () => {
+    console.log("package 1");
+  }
 };
