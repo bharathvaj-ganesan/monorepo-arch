@@ -11,5 +11,8 @@
   "gitHead": "ac5338f054bff1588facb3b6d65a1f8bf6fba9d9",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@ifaafa/package-1": "^1.0.3"
   }
 }
