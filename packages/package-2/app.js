@@ -1,3 +1,8 @@
+const package1Alert = require("@ifaafa/package-1");
+
 module.exports = {
-  alert: () => console.log("package 2")
+  alert: () => {
+    package1Alert.alert();
+    console.log("package 2");
+  }
 };
