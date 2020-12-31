@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "shipjs:prepare": "shipjs prepare",
+    "shipjs:trigger": "shipjs trigger"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/bharathvaj1995/monorepo-arch#readme",
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "shipjs": "0.23.0"
+  },
+  "dependencies": {
+    "@ifaafa/shipjs-temp": "^1.0.3"
   }
 }
