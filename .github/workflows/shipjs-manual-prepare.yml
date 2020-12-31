@@ -7,7 +7,7 @@ jobs:
     if: |
       github.event_name == 'issue_comment' &&
       (github.event.comment.author_association == 'member' || github.event.comment.author_association == 'owner') &&
-      startsWith(github.event.comment.body, '@shipjs prepare')
+      startsWith(github.event.comment.body, 'release')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
